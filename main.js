@@ -71,3 +71,28 @@ ScrollReveal().reveal(".discover__card__btn",{
     ...scrollRevealOption,
     delay: 2000,
 });
+
+ScrollReveal().reveal(".banner__content .section__header",{
+    ...scrollRevealOption,
+});
+ScrollReveal().reveal(".banner__content .section__description",{
+    ...scrollRevealOption,
+    delay: 500,
+});
+ScrollReveal().reveal(".banner__card",{
+    ...scrollRevealOption,
+    delay: 1000,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".subsribe__content .section__header",{
+    ...scrollRevealOption,
+});
+ScrollReveal().reveal(".subscribe__content .section__description",{
+    ...scrollRevealOption,
+    delay: 500,
+});
+ScrollReveal().reveal(".subscribe__content form",{
+    ...scrollRevealOption,
+    delay: 1000,
+});
